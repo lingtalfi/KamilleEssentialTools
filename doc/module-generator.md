@@ -49,3 +49,38 @@ Then use the generator to end with the following structure:
 
 
 ```
+
+
+Here is an example script of how it should be used:
+
+```php
+<?php
+
+
+use KamilleEssentialTools\ModuleGenerator\KamilleModuleGenerator;
+
+require_once __DIR__ . "/../boot.php";
+require_once __DIR__ . "/../init.php";
+
+
+
+
+$moduleName = "EkomUserProductHistory";
+$tablePrefix = "ekmod_uph_";
+$modulesDir = __DIR__ . "/../class-modules";
+$xiaoGenAlias = 'xiaoph';
+$db = "kamille";
+
+
+
+
+KamilleModuleGenerator::create()
+    ->setDatabase($db)
+    ->setModuleName($moduleName)
+    ->setModulesDir($modulesDir)
+    ->setTablePrefix($tablePrefix)
+    ->setXiaoGenAlias($xiaoGenAlias)
+    ->generate();
+
+
+```
