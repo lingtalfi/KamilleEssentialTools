@@ -7,7 +7,7 @@ namespace Module\KamilleUserProductHistory;
 use Core\Module\ApplicationModule;
 use Core\Services\A;
 use Module\My\Api\MyApi;
-use QuickPdo\QuickPdo;
+use Ling\QuickPdo\QuickPdo;
 
 class MyModule extends ApplicationModule
 {

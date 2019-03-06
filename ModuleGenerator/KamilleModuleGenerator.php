@@ -1,12 +1,12 @@
 <?php
 
 
-namespace KamilleEssentialTools\ModuleGenerator;
+namespace Ling\KamilleEssentialTools\ModuleGenerator;
 
 
-use Bat\CaseTool;
-use Bat\FileSystemTool;
-use KamilleEssentialTools\Exception\KamilleEssentialToolsException;
+use Ling\Bat\CaseTool;
+use Ling\Bat\FileSystemTool;
+use Ling\KamilleEssentialTools\Exception\KamilleEssentialToolsException;
 
 
 /**

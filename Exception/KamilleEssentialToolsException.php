@@ -1,7 +1,7 @@
 <?php
 
 
-namespace KamilleEssentialTools\Exception;
+namespace Ling\KamilleEssentialTools\Exception;
 
 
 class KamilleEssentialToolsException extends \Exception

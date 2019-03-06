@@ -57,7 +57,7 @@ Here is an example script of how it should be used:
 <?php
 
 
-use KamilleEssentialTools\ModuleGenerator\KamilleModuleGenerator;
+use Ling\KamilleEssentialTools\ModuleGenerator\KamilleModuleGenerator;
 
 require_once __DIR__ . "/../boot.php";
 require_once __DIR__ . "/../init.php";
